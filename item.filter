@@ -64,7 +64,7 @@ ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10
 ItemDisplay[RUNE>25]: %NL% ++      %NAME%      ++ %NL%%NOTIFY-ORANGE%
 ItemDisplay[RUNE>19 AND RUNE<26]: %NL% +  %NAME%  + %NL%%NOTIFY-ORANGE%
 ItemDisplay[RUNE=18]: %NL% + %NAME% + %NL%%NOTIFY-ORANGE%
-ItemDisplay[RUNE>0 AND RUNE<20]:
+ItemDisplay[RUNE>0 AND RUNE<12]:
 
 // Hidden: Unid Large charms, Grand charms <ilvl50, Small charms <ilvl50
 ItemDisplay[cm1 OR cm2 OR cm3 (!ID UNI)]: %NL%  %NAME%  %NL%%NOTIFY-GOLD%
@@ -72,7 +72,7 @@ ItemDisplay[cm1 OR cm3 (!ID AND ILVL>50)]: %NL%  %NAME% [i%ILVL%]  %NL%%NOTIFY-B
 ItemDisplay[(cm1 OR cm2 OR cm3) !ID]:
 
 // Hidden: Unid Jewels <ilvl 45
-ItemDisplay[jew MAG !ID]: %NAME% [i%ILVL%]
+ItemDisplay[jew MAG !ID]: %NL%+    %NAME% [i%ILVL%]    +%NL%
 ItemDisplay[jew RARE !ID]: %NL%  %NAME% [i%ILVL%]  %NL%%NOTIFY-YELLOW%
 ItemDisplay[jew UNI !ID]: %NL%+    %NAME%    +%NL%%NOTIFY-GOLD%
 ItemDisplay[jew MAG OR RARE (!ID AND ILVL<45)]:
