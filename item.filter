@@ -24,8 +24,8 @@ ItemDisplay[gps OR ops OR gpm OR opm OR gpl OR opl]:
 ItemDisplay[key OR vps OR yps OR wms OR tsc OR isc]:
 ItemDisplay[hp5]: H
 ItemDisplay[mp5]: M
-ItemDisplay[rvl]: R
-ItemDisplay[rvs]: r
+ItemDisplay[rvl]:     F    
+ItemDisplay[rvs]:     R    
 
 // =============================================================
 // GEMS
